@@ -17,3 +17,5 @@ $(window).scroll(function() {
 				$('.nav').removeClass('affix');
 			}
 		});
+
+   
