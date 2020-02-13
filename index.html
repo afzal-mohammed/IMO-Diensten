@@ -29,6 +29,9 @@
 
 <body>
 
+  <button onclick="topFunction()" id="myBtn" title="Go to top" style="display: block;">
+    <i class="fas fa-angle-double-up" style="color:#ff7315;"></i> <strong> Top</strong>  </button>
+
   <section class="" id="title">
     <div class="container" id="header">
       <div class="row">
@@ -54,10 +57,10 @@
       <!-- Added new to check the images -->
       <div class="row">
 
-        <div class="col-lg-12 navbar fixed-top" style="background-color:#eeeeee;">
-          <nav class="navbar fixed-top navbar-expand-lg navbar-light nav" style="background-color:#eeeeee;">
-  <a class="navbar-brand" href="#"> <img src="images/imodiensten_logo.png" alt="imodiensten_logo" class="brand-logo"> </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="col-lg-12 navbar">
+          <nav id="navHeader" class="navbar fixed-top navbar-expand-lg navbar-light nav">
+              <a class="navbar-brand" href="#"> <img src="images/imodiensten_logo.png" alt="imodiensten_logo" class="brand-logo"> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin-right: 30px;">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -139,14 +142,14 @@
               <div class="hover panel">
                 <div class="front">
                   <div class="box1">
-                    <i class="far fa-edit" style="font-size:60px;color:#3b5999;"></i>
-                    <p><br> <strong>Sign Up</strong><br><br><br>Apply <br> <br> <br> </p>
+                    <i class="far fa-edit" style="font-size:60px;color:#f1f9f9;"></i>
+                    <p class="flip-text-box1"><br> <strong>Sign Up</strong><br><br><br>Apply <br> <br> <br> </p>
                   </div>
                 </div>
                 <div class="back">
                   <div class="box2">
                     <i class="far fa-edit" style="font-size:60px;color:#3b5999;"></i>
-                    <p><br><strong>Sign Up</strong> <br><br><br>Apply <br> <br> <br> </p>
+                    <p class="flip-text-box2"><br><strong>Sign Up</strong> <br><br><br>Apply <br> <br> <br> </p>
                   </div>
                 </div>
             </div>
@@ -160,14 +163,14 @@
               <div class="hover panel">
                 <div class="front">
                   <div class="box1">
-                    <i class="fas fa-comments" style="font-size:60px;color:#3b5999;"></i>
-                    <p><br> <strong> Interview</strong><br><br><br><br> The right match<br> <br> </p>
+                    <i class="fas fa-comments" style="font-size:60px;color:#f1f9f9;"></i>
+                    <p class="flip-text-box1"><br> <strong> Interview</strong><br><br><br><br> The right match<br> <br> </p>
                   </div>
                 </div>
                 <div class="back">
                   <div class="box2">
                     <i class="fas fa-comments" style="font-size:60px;color:#3b5999;"></i>
-                    <p><br><strong> Interview</strong><br><br><br><br> The right match<br> <br> </p>
+                    <p class="flip-text-box2"><br><strong> Interview</strong><br><br><br><br> The right match<br> <br> </p>
                   </div>
                 </div>
             </div>
@@ -181,14 +184,14 @@
               <div class="hover panel">
                 <div class="front">
                   <div class="box1">
-                    <i class="far fa-address-card" style="font-size:60px;color:#3b5999;"></i>
-                    <p><br> <strong>Contract</strong><br><br><br><br> Get started right away<br> <br> </p>
+                    <i class="far fa-address-card" style="font-size:60px;color:#f1f9f9;"></i>
+                    <p class="flip-text-box1"><br> <strong>Contract</strong><br><br><br><br> Get started right away<br> <br> </p>
                   </div>
                 </div>
                 <div class="back">
                   <div class="box2">
                     <i class="far fa-address-card" style="font-size:60px;color:#3b5999;"></i>
-                    <p><br><strong>Contract</strong><br><br><br><br> Get started right away<br> <br> </p>
+                    <p class="flip-text-box2"><br><strong>Contract</strong><br><br><br><br> Get started right away<br> <br> </p>
                   </div>
                 </div>
             </div>
@@ -202,14 +205,14 @@
               <div class="hover panel">
                 <div class="front">
                   <div class="box1">
-                    <i class="fa fa-database" style="font-size:60px;color:#3b5999;"></i>
-                    <p><br> <strong>Payout</strong><br><br><br><br> Make money<br> <br> </p>
+                    <i class="fa fa-database" style="font-size:60px;color:#f1f9f9;"></i>
+                    <p class="flip-text-box1"><br> <strong>Payout</strong><br><br><br><br> Make money<br> <br> </p>
                   </div>
                 </div>
                 <div class="back">
                   <div class="box2">
                     <i class="fa fa-database" style="font-size:60px;color:#3b5999;"></i>
-                    <p><br><strong>Payout</strong><br><br><br><br> Make money<br> <br> </p>
+                    <p class="flip-text-box2"><br><strong>Payout</strong><br><br><br><br> Make money<br> <br> </p>
                   </div>
                 </div>
             </div>
@@ -240,7 +243,7 @@
         <div class="feature-box col-lg-4">
           <img src="images/chef.png" height="65px" width="65px" alt="">
           <h3 class="feature-title">Chefs</h3>
-          <p>If you want to work as an assistant chef, chef de partie, sous chef, chef or all-round cook, we can be of service to you!
+          <p class="hospitality-jobs">If you want to work as an assistant chef, chef de partie, sous chef, chef or all-round cook, we can be of service to you!
 <a href="#">Chef Jobs</a></p>
         </div>
 
@@ -345,7 +348,7 @@
         <div class="col-lg-4 contact-verbatim">
           <strong>Get In Touch</strong><br>
           <hr>
-          <span><p style="text-align:justify;">Thank you for your interest in IMO Diensten. Please use this form if you have any
+          <span><p style="text-align:justify; color:#fff;">Thank you for your interest in IMO Diensten. Please use this form if you have any
                 questions We are happy to help you and answer your questions as
                 quickly as possible. Fill in our contact form or call us! </p></span>
 
@@ -357,62 +360,58 @@
 
           <div class="wrapper-no">
   <form>
-    <div class="group">
-      <input placeholder="Name*" type="text" required="required" style="border:1px;"/>
+    <div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1">@</span>
+  </div>
+  <input type="text" class="form-control" placeholder="Name">
+</div>
 
-    </div>
-    <div class="group">
-      <input placeholder="Email*" type="email" required="required"/><span class="highlight"></span><span class="bar"></span>
+<div class="input-group mb-3">
+  <input type="email" class="form-control" placeholder="Email ID">
+  <div class="input-group-append">
+    <span class="input-group-text" id="basic-addon2">Email</span>
+  </div>
+</div>
 
-    </div>
-    <div class="group">
-      <input placeholder="Contact No.*" type="number" required="required"/><span class="highlight"></span><span class="bar"></span>
-      </div>
-    <div class="group">
-      <textarea placeholder="Message*" type="textarea" rows="5" required="required"></textarea><span class="highlight"></span><span class="bar"></span>
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon3">Contact</span>
+  </div>
+  <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+</div>
 
-    </div>
+<div class="input-group mb-3">
+
+  <input type="text" class="form-control">
+  <div class="input-group-append">
+    <span class="input-group-text">Subject</span>
+  </div>
+</div>
+
+<div class="input-group">
+  <div class="input-group-prepend">
+    <span class="input-group-text">Message</span>
+  </div>
+  <textarea class="form-control"></textarea>
+</div>
+
     <div class="btn-box">
       <button class="btn btn-submit btn-primary" type="submit">Submit</button>
       <button class="btn btn-cancel btn-danger" type="button">Cancel</button>
     </div>
   </form>
 </div>
-          <!-- <form class="submit-contact" action="index.html" method="post">
-            <ul class="contact-list">
-                    <li class="contact-sublist">
-                        <input type="text" class="contact-input" name="u_name" placeholder="Enter Your Name">
-                      </li>
-                    <li class="contact-sublist">
-                        <input placeholder="Subject" type="text" class="contact-input" name="u_subject">
-                        <i class="careerfy-icon careerfy-user"></i>
-                    </li>
-                    <li class="contact-sublist">
-                        <input placeholder="Enter Your Email Address" type="email" class="contact-input" name="u_email">
-                        <i class="careerfy-icon careerfy-mail"></i>
-                    </li>
-                    <li class="contact-sublist">
-                        <input placeholder="Enter Your Phone Number" class="contact-input" type="text" name="u_number">
-                        <i class="careerfy-icon careerfy-technology"></i>
-                    </li>
-                    <li class="contact-sublist">
-                        <textarea name="u_msg" placeholder="Enter Your Message" class="contact-input" style="height:150px;"></textarea>
-                    </li>
-                    <li>
-                        <input type="submit" class="btn btn-primary" value="Submit">
 
-                    </li>
-                </ul>
-          </form> -->
         </div>
 
         <div class="col-lg-4">
           <strong>Contact</strong>
           <hr>
-          <p>
+          <p style="color:#fff;">
             IMO Diensten<br>
             Tel: 06 52 36 36 33 <br>
-            E-mail: <a href="mailto:info@imodiensten.nl">info@imodiensten.nl</a>
+            E-mail: <a href="mailto:info@imodiensten.nl" style="color:crimson;">info@imodiensten.nl</a>
           </p>
 
           <!--Google map-->
@@ -427,7 +426,7 @@
 
   <!-- Footer -->
 
-  <footer class="white-section" id="footer">
+  <footer id="footer">
 
     <div class="container footer-container">
 
@@ -493,7 +492,7 @@
       <i class="social-icon fab fa-twitter" style="color:white;"></i>
       <i class="social-icon fab fa-instagram" style="color:white;"></i>
       <i class="social-icon fas fa-envelope" style="color:white;"></i>
-      <p>IMO Diensten © Copyright 2020, All rights reserved</p>
+      <p style="margin-bottom: 0px;">IMO Diensten © Copyright 2020, All rights reserved</p>
     </div>
   </footer>
 
