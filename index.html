@@ -1,36 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
-  <title>IMO Diensten</title>
-  <link rel="icon" href="images/imodiensten_logo.png" sizes="30x30" type="image/png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
 
-  <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
-
   <!-- Font Awesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-
-  <!-- Jquery -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <!-- Bootstrap Scripts -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- Custom Style sheet -->
+  <link rel="stylesheet" href="css/styles.css">
+  <title>IMO Diensten</title>
 </head>
 
 <body>
 
   <button onclick="topFunction()" id="myBtn" title="Go to top" style="display: block;">
-    <i class="fas fa-angle-double-up" style="color:#ff7315;"></i> <strong> Top</strong>  </button>
+    <i class="fas fa-angle-double-up" style="color:#010a43;"></i> <strong> Top</strong> </button>
 
   <section class="" id="title">
     <div class="container" id="header">
@@ -39,19 +33,19 @@
         <div class="bg-img">
           <!-- <img class="home-img" src="images/home3.jpg" alt="home"> -->
 
-              <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-pause="false">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img class="d-block w-100 home-img" src="images/home1.jpeg" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100 home-img" src="images/home3.jpg" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100 home-img" src="images/home5.jpg" alt="Third slide">
-                    </div>
-                  </div>
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-pause="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100 home-img home-slider-img" src="images/home1.jpeg" alt="First slide">
               </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 home-img home-slider-img" src="images/home3.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 home-img home-slider-img" src="images/home5.jpg" alt="Third slide">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <!-- Added new to check the images -->
@@ -59,59 +53,66 @@
 
         <div class="col-lg-12 navbar">
           <nav id="navHeader" class="navbar fixed-top navbar-expand-lg navbar-light nav">
-              <a class="navbar-brand" href="#"> <img src="images/imodiensten_logo.png" alt="imodiensten_logo" class="brand-logo"> </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin-right: 30px;">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+            <a class="navbar-brand" href="#"> <img src="images/imodiensten_logo.png" alt="imodiensten_logo" class="brand-logo"> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin-right: 30px;">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link menubar" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link menubar" href="#">About Us</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle menubar" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Services
-        </a>
-        <div class="dropdown-menu" style="background-color:lightgrey;" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Security</a>
-          <a class="dropdown-item" href="#">Cleaning</a>
-          <a class="dropdown-item" href="#">Hotel</a>
-          <a class="dropdown-item" href="#">Sales & Marketing</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link menubar" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link menubar" href="#">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle menubar" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Services
+                  </a>
+                  <div class="dropdown-menu" style="background-color:lightgrey;" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Security</a>
+                    <a class="dropdown-item" href="#">Cleaning</a>
+                    <a class="dropdown-item" href="#">Hotel</a>
+                    <a class="dropdown-item" href="#">Sales & Marketing</a>
 
-        </div>
-      </li>
+                  </div>
+                </li>
 
-      <li class="nav-item">
-        <a class="nav-link menubar" href="#contactUs">Contact Us</a>
-      </li>
+                <li class="nav-item">
+                  <a class="nav-link menubar" href="#contactUs">Contact Us</a>
+                </li>
 
-    </ul>
+              </ul>
 
-  </div>
-</nav>
+            </div>
+          </nav>
         </div>
       </div>
-  </div>
+    </div>
     <div class="container-fluid">
 
       <!-- Title -->
 
       <div class="row main-text">
 
-        <div class="col-lg-8">
-          <h1 class="big-heading">Are you looking for job?</h1>
+        <div class="col-lg-6" style="text-align:center;">
+          <h1 class="big-heading">Business?</h1>
+          <p class="allJob-search text-padding">If you need temporary workers for short term or long term assignments, a managed workforce solution or the ideal candidate for a permanent position we have the experience and resources to deliver what
+            you require.
+          </p>
+          <button class="btn default">Search For Staff</button>
           <!-- <h1 class="big-heading">The recruitment agency for the hospitality and catering industry in and around Amsterdam.</h1> -->
 
         </div>
 
-        <div class="col-lg-4">
-          <div class="allJob-search">
-            <p class="allJob-search">We are always interested in new candidates that match our current vacancies.</p><br>
-            <button type="button" class="btn btn-dark" style="width:100%; letter-spacing:2px;"> <b style="color:#ff7315;">VIEW ALL JOBS</b></button>
+        <div class="col-lg-6 work-item">
+          <div class="">
+            <h1 class="big-heading">Candidate?</h1>
+            <p class="allJob-search text-padding">Select the work type that you have experience of or are qualified to perform, we are always interested in new candidates that match our current vacancies.</p><br>
+            <button class="btn default">Search For Job</button>
+
+            <!-- <button type="button" class="btn btn-dark" style="width:100%; letter-spacing:2px;"> <b style="color:#ff7315;">VIEW ALL JOBS</b></button> -->
 
           </div>
 
@@ -122,22 +123,23 @@
     </div>
 
   </section>
-  <!-- Column for flip boxes -->
+
+  <!-- Flips Section -->
   <section id="flips">
 
     <div class="container">
 
 
-    <!-- Hiding How we work heading -->
-    <div class="row" style="display:none;">
-      <div class="col-lg-12">
-        <h3>How we work</h3>
+      <!-- Hiding How we work heading -->
+      <div class="row" style="display:none;">
+        <div class="col-lg-12">
+          <h3>How we work</h3>
+        </div>
       </div>
-    </div>
-    <div class="row">
+      <div class="row">
 
-      <div class="col-lg-3 col-sm-6 flip-box">
-        <div class="wrapper">
+        <div class="col-lg-3 col-sm-6 flip-box">
+          <div class="wrapper">
             <div class="col_fourth">
               <div class="hover panel">
                 <div class="front">
@@ -152,13 +154,13 @@
                     <p class="flip-text-box2"><br><strong>Sign Up</strong> <br><br><br>Apply <br> <br> <br> </p>
                   </div>
                 </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-lg-3 col-sm-6 flip-box">
-        <div class="wrapper">
+        <div class="col-lg-3 col-sm-6 flip-box">
+          <div class="wrapper">
             <div class="col_fourth">
               <div class="hover panel">
                 <div class="front">
@@ -173,13 +175,13 @@
                     <p class="flip-text-box2"><br><strong> Interview</strong><br><br><br><br> The right match<br> <br> </p>
                   </div>
                 </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-lg-3 col-sm-6 flip-box">
-        <div class="wrapper">
+        <div class="col-lg-3 col-sm-6 flip-box">
+          <div class="wrapper">
             <div class="col_fourth">
               <div class="hover panel">
                 <div class="front">
@@ -194,13 +196,13 @@
                     <p class="flip-text-box2"><br><strong>Contract</strong><br><br><br><br> Get started right away<br> <br> </p>
                   </div>
                 </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-lg-3 col-sm-6 flip-box">
-        <div class="wrapper">
+        <div class="col-lg-3 col-sm-6 flip-box">
+          <div class="wrapper">
             <div class="col_fourth">
               <div class="hover panel">
                 <div class="front">
@@ -215,23 +217,20 @@
                     <p class="flip-text-box2"><br><strong>Payout</strong><br><br><br><br> Make money<br> <br> </p>
                   </div>
                 </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-</div>
   </section>
-    <!-- Column for flip boxes -->
 
-
-  <!-- Features -->
-<!-- Hiding the features section -->
+  <!-- Features Section -->
   <section class="white-section" id="features">
 
-    <div class="container-fluid">
+    <div class="container-fluid top-bottom-padding">
 
-      <div class="row">
+      <div class="row bottom-padding">
 
         <div class="col-lg-12" style="text-align:center;">
           <h3>Hospitality Jobs</h3>
@@ -239,26 +238,26 @@
 
       </div>
 
-      <div class="row">
+      <div class="row bottom-padding">
         <div class="feature-box col-lg-4">
           <img src="images/chef.png" height="65px" width="65px" alt="">
           <h3 class="feature-title">Chefs</h3>
           <p class="hospitality-jobs">If you want to work as an assistant chef, chef de partie, sous chef, chef or all-round cook, we can be of service to you!
-<a href="#">Chef Jobs</a></p>
+            <a href="#">Chef Jobs</a></p>
         </div>
 
         <div class="feature-box col-lg-4">
           <img src="images/fandb.png" height="65px" width="65px" alt="">
           <h3 class="feature-title">Food & Beverage</h3>
           <p>Are you energetic and you like to make people happy? Then come to work in the Food & Beverage, supervisor, bar employee or waiter.
-          <a href="#">Food & Beverage Jobs</a>  </p>
+            <a href="#">Food & Beverage Jobs</a> </p>
         </div>
 
         <div class="feature-box col-lg-4">
           <img src="images/hkeeping.png" height="65px" width="65px" alt="">
           <h3 class="feature-title">Housekeeping</h3>
           <p>If you want to be the one who organizes the appearance of the hotel, then come and work in housekeeping as a housekeeper.
-          <a href="#">Housekeeping Jobs</a> </p>
+            <a href="#">Housekeeping Jobs</a> </p>
         </div>
       </div>
 
@@ -271,17 +270,17 @@
         </div>
 
         <div class="feature-box col-lg-4">
-            <img src="images/dwasher.png" height="65px" width="65px" alt="">
+          <img src="images/dwasher.png" height="65px" width="65px" alt="">
           <h3 class="feature-title">Dishwashers</h3>
           <p>Always want to roll up your sleeves? Then come to work as a dishwasher or a sink kitchen employee
-          <a href="#">Dishwashers Jobs</a>  </p>
+            <a href="#">Dishwashers Jobs</a> </p>
         </div>
 
         <div class="feature-box col-lg-4">
           <img src="images/allJobs.png" height="65px" width="65px" alt="">
           <h3 class="feature-title">Other</h3>
           <p>Do you have what it takes to be a great supervisor or manager at one of our client's restaurants, bars or hotels.
-          <a href="#">All Jobs</a> </p>
+            <a href="#">All Jobs</a> </p>
         </div>
       </div>
 
@@ -290,42 +289,54 @@
     </div>
   </section>
 
-
   <!-- Testimonials -->
-
   <section class="colored-section" id="testimonials">
 
-    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+    <div id="testimonial-carousel" class="carousel slide" data-ride="carousel" interval="2000" pause="hover">
       <div class="carousel-inner">
         <div class="carousel-item active container-fluid">
-          <h2 class="testimonial-text">IMO Services are really a good help.</h2>
-          <img class="testimonial-image" src="#" alt="profile-pic">
+          <p class="testimonial-text">IMO Services are really a good help.</p>
+          <img class="testimonial-image" src="images/profilePic.png" alt="profile-pic">
           <em>John Doe, Amsterdam</em>
         </div>
         <div class="carousel-item container-fluid">
-          <h2 class="testimonial-text">Very Good service. Professional staff. Easy to find the perfect job you are looking</h2>
-          <img class="testimonial-image" src="#" alt="profile-pic">
+          <p class="testimonial-text">Very Good service. Professional staff. Easy to find the perfect job you are looking</p>
+          <img class="testimonial-image" src="images/profilePic.png" alt="profile-pic">
           <em>John Lorem, Amsterdam</em>
         </div>
       </div>
       <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
+        <span class="carousel-control-prev-icon"></span>
       </a>
       <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
+        <span class="carousel-control-next-icon"></span>
       </a>
     </div>
 
   </section>
 
 
-  <!-- Press -->
+  <!-- Partners -->
 
-  <section class="" id="press">
-    <img class="press-logo" src="images/partner1.jpg" alt="b2cleaning-logo">
-    <img class="press-logo" src="images/partner2.jpg" alt="optisport-logo">
-    <img class="press-logo" src="images/partner3.jpg" alt="leonardoHotels-logo">
+  <section class="white-section" id="partners">
 
+    <div class="container-fluid" style="padding:5px;">
+
+      <div class="row">
+        <div class="col-lg" style="text-align: center;">
+          <h3 class="partners-label">Our Partners</h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg" style="text-align: center;">
+          <img class="press-logo" src="images/partner1.jpg" alt="b2cleaning-logo">
+          <img class="press-logo" src="images/partner2.jpg" alt="optisport-logo">
+          <img class="press-logo" src="images/partner3.jpg" alt="leonardoHotels-logo">
+        </div>
+      </div>
+
+    </div>
 
   </section>
 
@@ -337,8 +348,8 @@
     <div class="container-fluid contactus-section">
 
       <div class="row contact-us-label">
-        <div class="col=lg-12">
-            <h3 class="contact-us-label">Contact Us</h3>
+        <div class="col=lg-12" style="text-align: center;">
+          <h3 class="contact-us-label">Contact Us</h3>
         </div>
 
       </div>
@@ -348,64 +359,66 @@
         <div class="col-lg-4 contact-verbatim">
           <strong>Get In Touch</strong><br>
           <hr>
-          <span><p style="text-align:justify; color:#fff;">Thank you for your interest in IMO Diensten. Please use this form if you have any
-                questions We are happy to help you and answer your questions as
-                quickly as possible. Fill in our contact form or call us! </p></span>
+          <span>
+            <p style="text-align:justify; color:#fff;">Thank you for your interest in IMO Diensten. Please use this form if you have any
+              questions We are happy to help you and answer your questions as
+              quickly as possible. Fill in our contact form or call us! </p>
+          </span>
 
         </div>
 
-        <div class="col-lg-4  contacts-div">
+        <div class="col-lg-4  contacts-div contact-verbatim">
           <strong>Feel free to drop us a line below! </strong><br>
-          <hr class="sep"/>
+          <hr class="sep" />
 
           <div class="wrapper-no">
-  <form>
-    <div class="input-group mb-3">
-  <div class="input-group-prepend">
-    <span class="input-group-text" id="basic-addon1">@</span>
-  </div>
-  <input type="text" class="form-control" placeholder="Name">
-</div>
+            <form>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">@</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Name">
+              </div>
 
-<div class="input-group mb-3">
-  <input type="email" class="form-control" placeholder="Email ID">
-  <div class="input-group-append">
-    <span class="input-group-text" id="basic-addon2">Email</span>
-  </div>
-</div>
+              <div class="input-group mb-3">
+                <input type="email" class="form-control" placeholder="Email ID">
+                <div class="input-group-append">
+                  <span class="input-group-text" id="basic-addon2">Email</span>
+                </div>
+              </div>
 
-<div class="input-group mb-3">
-  <div class="input-group-prepend">
-    <span class="input-group-text" id="basic-addon3">Contact</span>
-  </div>
-  <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
-</div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon3">Contact</span>
+                </div>
+                <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+              </div>
 
-<div class="input-group mb-3">
+              <div class="input-group mb-3">
 
-  <input type="text" class="form-control">
-  <div class="input-group-append">
-    <span class="input-group-text">Subject</span>
-  </div>
-</div>
+                <input type="text" class="form-control">
+                <div class="input-group-append">
+                  <span class="input-group-text">Subject</span>
+                </div>
+              </div>
 
-<div class="input-group">
-  <div class="input-group-prepend">
-    <span class="input-group-text">Message</span>
-  </div>
-  <textarea class="form-control"></textarea>
-</div>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Message</span>
+                </div>
+                <textarea class="form-control"></textarea>
+              </div>
 
-    <div class="btn-box">
-      <button class="btn btn-submit btn-primary" type="submit">Submit</button>
-      <button class="btn btn-cancel btn-danger" type="button">Cancel</button>
-    </div>
-  </form>
-</div>
+              <div class="btn-box">
+                <button class="btn btn-submit btn-primary" type="submit">Submit</button>
+                <button class="btn btn-cancel btn-danger" type="button">Cancel</button>
+              </div>
+            </form>
+          </div>
 
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-4 contact-verbatim">
           <strong>Contact</strong>
           <hr>
           <p style="color:#fff;">
@@ -423,116 +436,79 @@
     </div>
   </section>
 
-
-  <!-- Footer -->
-
   <footer id="footer">
-
     <div class="container footer-container">
-
       <div class="row" style="padding-top: 20px;">
 
+        <div class="col-lg-3">
+          <p> <img src="images/footer-logo.png" alt="" width="170px" height="71px"> </p>
+          <p>We are the staffing agency for the hospitality and catering industry.
+            A reliable partner for hospitality and catering industry in and around
+            Amsterdam to find suitable staff</p>
+        </div>
 
-
-      <div class="col-lg-3">
-        <p> <img src="images/footer-logo.png" alt="" width="170px" height="71px"> </p>
-        <p>We are the staffing agency for the hospitality and catering industry.
-           A reliable partner for hospitality and catering industry in and around
-           Amsterdam to find suitable staff</p>
-      </div>
-
-      <div class="col-lg-3">
-
-        <h4 class="footer-label">Information</h4>
+        <div class="col-lg-3">
+          <h6 class="footer-label">Information</h6>
           <div class="dropdown-divider"> </div>
-        <ul class="footer-heading">
-          <li class="footer-text"><a href="#" class="footer-text">Home</a></li>
-          <li class="footer-text"><a href="#" class="footer-text">About Us</a></li>
-          <li class="footer-text"><a href="#" class="footer-text">Contact Us</a></li>
+          <ul class="footer-heading">
+            <li class="footer-text"><a href="#" class="footer-text">Home</a></li>
+            <li class="footer-text"><a href="#" class="footer-text">About Us</a></li>
+            <li class="footer-text"><a href="#" class="footer-text">Contact Us</a></li>
+          </ul>
+        </div>
 
-
-
-
-        </ul>
-
-      </div>
-
-      <div class="col-lg-3">
-        <h4 class="footer-label">Sector</h4>
+        <div class="col-lg-3">
+          <h6 class="footer-label">Sector</h6>
           <div class="dropdown-divider"> </div>
-        <ul class="footer-heading">
-          <li class="footer-text"><a href="#" class="footer-text">Hotel</a><br></li>
-          <li class="footer-text">  <a href="#" class="footer-text">Sales & Marketing</a><br></li>
-          <li class="footer-text">  <a href="#" class="footer-text">Security</a><br></li>
-          <li class="footer-text"><a href="#" class="footer-text">Cleaning</a></li>
+          <ul class="footer-heading">
+            <li class="footer-text"><a href="#" class="footer-text">Hotel</a><br></li>
+            <li class="footer-text"> <a href="#" class="footer-text">Sales & Marketing</a><br></li>
+            <li class="footer-text"> <a href="#" class="footer-text">Security</a><br></li>
+            <li class="footer-text"><a href="#" class="footer-text">Cleaning</a></li>
+          </ul>
+        </div>
 
-        </ul>
-
-      </div>
-
-      <div class="col-lg-3">
-        <h4 class="footer-label">Partner</h4>
+        <div class="col-lg-3">
+          <h6 class="footer-label">Partner</h6>
           <div class="dropdown-divider"> </div>
-        <ul class="footer-heading" style="text-align-last: center;">
-          <li> <img src="images/partner1.jpg" height="60px" width="100px" alt=""> </li><br>
-          <li> <img src="images/partner2.jpg" height="65px" width="100px" alt=""> </li><br>
-          <li> <img src="images/partner3.jpg" height="65px" width="100px" alt=""> </li>
 
+          <div class="row">
+            <div class="col-lg col-sm-4 col-md-4 bottom-padding">
+              <img src="images/b2.jfif" height="60px" width="100px" alt="">
+            </div>
+            <div class="col-lg col-sm-4 col-md-4 bottom-padding">
+              <img src="images/partner2.jpg" height="65px" width="100px" alt="">
+            </div>
+            <div class="col-lg col-sm-4 col-md-4 bottom-padding">
+              <img src="images/partner3.jpg" height="65px" width="100px" alt="">
+            </div>
 
+          </div>
 
-
-        </ul>
-
-      </div>
+        </div>
       </div>
     </div>
 
-    <div class="container social-section">
-      <i class="social-icon fab fa-facebook-f" style="color:white;"></i>
-      <i class="social-icon fab fa-twitter" style="color:white;"></i>
-      <i class="social-icon fab fa-instagram" style="color:white;"></i>
-      <i class="social-icon fas fa-envelope" style="color:white;"></i>
-      <p style="margin-bottom: 0px;">IMO Diensten © Copyright 2020, All rights reserved</p>
+    <div class="social-section">
+      <i class="social-icon fab fa-facebook-f" style="color:black;"></i>
+      <i class="social-icon fab fa-twitter" style="color:black;"></i>
+      <i class="social-icon fab fa-instagram" style="color:black;"></i>
+      <i class="social-icon fas fa-envelope" style="color:black;"></i>
+      <p style="margin-bottom: 0px;">IMO Diensten © Copyright <%= currentYear %>, All rights reserved</p>
     </div>
   </footer>
 
-  <div class="to-top-container to-top-right">
-    <a href="#" id="toTop" style="display: inline;">
-      <span id="toTopHover" style="opacity: 0;"></span>
-      <span class="screen-reader-text">Go to Top</span>
-    </a>
-  </div>
+  <!-- Boostrap -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="css/index.js"></script>
+  <script src="css/features.js"></script>
+  <script src="css/footer.js"></script>
+  <script src="css/partners.js"></script>
+  <script src="css/flips.js"></script>
 
-
-<script src="css/index.js" charset="utf-8"></script>
-<!--Google Maps-->
-<script src="https://maps.google.com/maps/api/js"></script>
-
-
-<!-- Google Maps settings -->
-<script>
-  // Regular map
-  function regular_map() {
-    var var_location = new google.maps.LatLng(52.346833, 4.787093);
-
-    var var_mapoptions = {
-      center: var_location,
-      zoom: 14
-    };
-
-    var var_map = new google.maps.Map(document.getElementById("map-container"),
-      var_mapoptions);
-
-    var var_marker = new google.maps.Marker({
-      position: var_location,
-      map: var_map,
-      title: "IMO Diensten"
-    });
-  }
-
-  // Initialize maps
-  google.maps.event.addDomListener(window, 'load', regular_map);
-</script>
 </body>
 
 </html>
